@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-LogisticalEnterprises-71C0FB62-8548-48F8-BD9C-D36091CFD4D1")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-LogisticalEnterprises-0A5FBEDA-42AD-43E5-B36A-C9919BF75EB3")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("LogisticalEnterprises")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
