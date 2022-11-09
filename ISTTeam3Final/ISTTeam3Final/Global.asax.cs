@@ -1,11 +1,14 @@
-﻿using System;
+﻿using ISTTeam3Final.Models;
+using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
+using ISTTeam3Final.Models;
 
 namespace ISTTeam3Final
 {
@@ -16,6 +19,7 @@ namespace ISTTeam3Final
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            Database.SetInitializer(new ProductDatabaseInitializer());
         }
     }
 }
